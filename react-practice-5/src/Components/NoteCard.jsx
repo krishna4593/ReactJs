@@ -8,9 +8,13 @@ const NoteCard = (props) => {
               <div>
                 <h4 className="text-2xl font-bold  leading-tight">{props.note.heading}</h4>
               <p className="text-md text-gray-500">{props.note.description}</p></div>
+
+              <div className="flex gap-1"> <button 
+              onClick={()=>props.editNote(props.index)}
+              className='w-full bg-red-500 text-white active:scale-95 rounded font-bold'>Edit</button>
               <button 
               onClick={()=>props.deleteNote(props.index)}
-              className='w-full bg-red-500 text-white active:scale-95 rounded font-bold'>Delete</button>
+              className='w-full bg-red-500 text-white active:scale-95 rounded font-bold'>Delete</button></div>
             </div>
   )
 }
