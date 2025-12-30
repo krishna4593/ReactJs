@@ -21,7 +21,7 @@ const NoteList = (props) => {
         className="w-full mb-4 mt-6 px-3 py-2 rounded text-white bg-gray-800 border border-gray-600"
       />
 
-        <div className="flex flex-wrap gap-5 mt-5 lg:h-[81vh] overflow-y-auto">
+        <div className="flex flex-wrap gap-5 mt-5 lg:h-[75vh] overflow-y-auto">
          {filteredNotes.map((note, index) => (
            <NoteCard
             key={index} 
