@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "High Text Machine Language",
+      "Hyperlink and Text Markup Language",
+      "Home Tool Markup Language"
+    ],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "question": "Which CSS property is used to change text color?",
+    "options": [
+      "font-color",
+      "text-color",
+      "color",
+      "foreground"
+    ],
+    "answer": "color"
+  },
+  {
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "options": [
+      "var",
+      "int",
+      "string",
+      "define"
+    ],
+    "answer": "var"
+  },
+  {
+    "question": "Which HTML tag is used to include JavaScript code?",
+    "options": [
+      "<js>",
+      "<javascript>",
+      "<script>",
+      "<code>"
+    ],
+    "answer": "<script>"
+  },
+  {
+    "question": "Which HTTP method is commonly used to fetch data from a server?",
+    "options": [
+      "POST",
+      "DELETE",
+      "GET",
+      "PUT"
+    ],
+    "answer": "GET"
+  }
+]
